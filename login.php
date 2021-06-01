@@ -8,7 +8,7 @@
 	if(isset($_POST['txtNome'])){
 		$nome = $_POST['txtNome'];
 		$senha = $_POST['txtSenha'];
-		if($nome == "cae" && $senha == "edu"){
+		if($nome == "visitante" && $senha == "123"){
 			$usuario = array('nome' => $nome,
 							 'registro' => date());
 			$_SESSION['usuario'] = $usuario;

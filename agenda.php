@@ -50,11 +50,11 @@ if($sql_select_contatos == false)
 <body>
 <div class="container">
 
-    <a href="privado.php">Home</a>
-	<a href="sobre.php">Sobre</a> 
-	<a href="historia.php">História</a>
-	<a href="agenda.php">Agenda</a>
-	<a href="logout.php">Logout</a>
+    <h5><a href="privado.php" style= "color: deeppink; font-size:20; margin-left: 100">Home</a>
+	<a href="sobre.php" style="color: blueviolet; font-size:20">Sobre</a>
+	<a href="historia.php" style="color: deepskyblue; font-size:20">História</a>
+	<a href="agenda.php" style="color: lawngreen; font-size:20">Agenda</a>
+	<a href="logout.php"style="color: darkorange; font-size:20">Logout</a></br></br><h5>
 
 <?php
 require_once('conexao.php');
@@ -63,10 +63,10 @@ require_once('conexao.php');
 <h2>AGENDA</h2>
 
 <ul>
-	<li><a href="inserir_contato.php">Inserir Contato</a></li>
+	<li><a href="inserir_contato.php" style="color:deeppink">Inserir Contato</a></li>
 </ul>
 <div class="listarbig">
-<table class="width="200" border="1" cellspacing="0" cellpadding="0">
+<table class="width="5" border="1" cellspacing="0" cellpadding="0">
   <tr>
     
     <th id="celula1">Nome:</th>

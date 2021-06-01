@@ -46,31 +46,30 @@ if(isset($_POST["inserir"]))
 <title>Inserir dados na agenda</title>
 <style type="text/css">
  
-   .txtarea {
-	background-color: #87CEFF;
+   .txtarea 
+   {
+	background-color: #FFFFFF;
     height: 20px;
-    width: 300px;
-	
-	
-}
+    width: 350px;
+  }
 
-   .selecionar {
-   background-color: #87CEFF;
+   .selecionar
+  {
+   background-color: #FFFFFF;
     height: 20px;
-    width: 220px;
-		
-}
+    width: 350px;
+	}
 </style>
 </head>
 
 <body>
-<h2>INSERIR CONTATO</h2>
+<h3 style="margin-left:30">Inserir contato</h3>
 <ul>
-	<li><a href="agenda.php">Listar Contatos</a></li>
+	<li><a href="agenda.php" style="color: deeppink">Listar Contatos</a></li>
 </ul>
 
 
-<form id="form_agenda" name="form_agenda" method="post" action="">
+<form id="form_agenda" name="form_agenda" method="post" action="" style="margin-left:30">
   <p>
     <label for="nome">Nome:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input type="text" name="nome" id="nome" placeholder="Digite o Nome " required   class="txtarea " />
@@ -79,14 +78,14 @@ if(isset($_POST["inserir"]))
   	<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o sobrenome " required="required" class="txtarea" />
     <br />
     <label for="email">Email:</label>
-    <input type="email" name="email" id="email" placeholder="Coloque e-mail válido"required="required"class="txtarea"/>
+    <input type="email" name="email" id="email" placeholder="Coloque e-mail válido"required="required"class="txtarea" style="margin-left:44"/>
     <br />
-    <label for="telefone">Telefone</label>
-    <input type="text" name="telefone" id="telefone"  placeholder="Digite o Telefone " />
-    <label for="celular">Celular</label>
+    <label for="telefone">Telefone:</label>
+    <input type="text" name="telefone" id="telefone"  placeholder="Digite o Telefone" style="margin-left:23"/>
+    <label for="celular">Celular:</label>
     <input type="text" name="celular" id="celular"  placeholder="Digite o Celular "  />
     <br />
-    <input type="submit" name="inserir" id="inserir" value="Inserir" />
+    <input type="submit" name="inserir" id="inserir" value="Inserir" style="background-color: #FFFFFF" />
 <br />
   </p>
 </form>

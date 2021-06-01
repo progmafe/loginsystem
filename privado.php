@@ -2,18 +2,18 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<a href="privado.php">Home</a>
-	<a href="sobre.php">Sobre</a>
-	<a href="historia.php">História</a>
-    <a href="agenda.php">Agenda</a>
-	<a href="logout.php">Logout</a></br></br>
+  <a href="privado.php" style= "color: deeppink; font-size:20; margin-left: 100">Home</a>
+	<a href="sobre.php" style="color: blueviolet; font-size:20">Sobre</a>
+	<a href="historia.php" style="color: deepskyblue; font-size:20">História</a>
+	<a href="agenda.php" style="color: lawngreen; font-size:20">Agenda</a>
+	<a href="logout.php"style="color: darkorange; font-size:20">Logout</a></br></br>
 
 	<div class="container">
 
-	<h5><?php
+	<h6><?php
 	require('logado.php');
 	echo "Olá! Seja bem vindo ".$_SESSION['usuario']['nome'];
-	?><h5>
+	?><h6>
 	
 	Home
 	</br>
@@ -21,7 +21,7 @@
  <style>
  .carousel-inner img
  {
-  width: 500px;
+  width: 400px;
   height: 500px;
 
  }
